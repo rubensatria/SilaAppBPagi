@@ -33,7 +33,7 @@
     <main>
  
         <h1>Ajukan Layanan Akademik</h1>
-        <form action="#" method="post" target="_self" class="form-card">
+        <form action="#"class="form-card" onsubmit="validasiform()">
             <fieldset>
                 <legend>Data Pengajuan</legend>
  
@@ -41,7 +41,7 @@
                 <!-- Nama -->
                 <div class="form-group">
                     <label for="namalengkap">Nama Lengkap</label>
-                    <input type="text" id="namalengkap" name="namalengkap" placeholder="Masukkan Nama Anda" required>
+                    <input type="text" id="namalengkap" name="namalengkap" placeholder="Masukkan Nama Anda" >
  
                 </div>
  
@@ -50,13 +50,15 @@
                     <!-- Nim -->
                     <div class="form-group">
                         <label for="Nim">NIM</label>
-                        <input type="text" id="nim" name="nim" placeholder="Contoh: 2411215463" required>
+                        <input type="text" id="nim" name="nim" placeholder="Contoh: 2411215463">
                     </div>
  
                     <!-- prodi -->
                     <div class="form-group">
+                        
                         <label for="prodi">Program Studi</label>
-                        <select>
+                       
+                        <select id="prodi">
                             <option value="">- Pilih Program Studi -</option>
                             <option value="Sistem Informasi">Sistem Informasi</option>
                             <option value="Teknik Informatika">Teknik Informatika</option>
@@ -72,7 +74,7 @@
  
                     <div class="form-group">
                         <label for="layanan">Jenis Layanan</label>
-                        <select id="layanan" name="layanan" required>
+                        <select id="layanan" name="layanan">
                             <option value="">- Jenis Layanan -</option>
                             <option value="SKA">Surat Aktif Sekolah</option>
                             <option value="CAK">Cuti Akademik</option>
@@ -83,7 +85,7 @@
  
                         <div class="form-group">
                             <label for="tanggal">Tanggal Pengajuan</label>
-                            <input type="date" id="tanggal" name="tanggal" required>
+                            <input type="date" id="tanggal" name="tanggal">
                         </div>
  
                     </div>
@@ -119,7 +121,7 @@
     <!--akhir footer -->
  
  
- 
+<script src="js/script.js"></script>
 </body>
  
 </html>

@@ -11,45 +11,123 @@
 </head>
 <body>
     <!-- Awal Header -->
-     <header>
-        <h1>🎓 SILA</h1>
-        <p class="subtitle">Sistem Informasi Layanan Akademik</p>
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="indexxx.html">Beranda</a></li>
-                <li><a href="layanan.html">Ajukan Layanan</a></li>
-                <li><a href="riwayat.html"class='active'>Riwayat</a></li>
-            </ul>
-        </nav>
-     </header>
+     <header class="navbar">
+        <div class="container navbar-inner">
+            <a href="index.html" class="logo">🎓 SILA</a>
+            <nav>
+                <a href="indexxx.html" class="active">Beranda</a>
+                <a href="layanan.html">Ajukan Layanan</a>
+                <a href="riwayat.html">Riwayat</a>
+            </nav>
+        </div>
+    </header>
+ 
+ 
      <hr>
      <!-- Akhir Header -->
 
      <!-- Awal Main -->
       <main>
-        <h2>Menu Riwayat - <em>Coming Soon</em></h2>
-    
+        <section class="section">
+            <div class="container">
+                <h2>Menu Riwayat</h2>
+                
+                <!-- table -->
+                 <table class="data-tabel">
+                    <caption>Data Pengajuan Layanan Akademik</caption>
+                    <!-- Title -->
+                    <thead>
+                        <tr>
+                            <th>no</th>
+                            <th>nama</th>
+                            <th>nIm</th>
+                            <th>LaYanan</th>
+                            <th>tangGal</th>
+                            <th>staTUs</th>
+                        </tr>
+                       
+                    </thead>
+                
+                
+                
+                    <!-- Isi data -->
+                    <tbody>
+                         <tr>
+                            <td>1</td>
+                            <td>Bigmo</td>
+                            <td>241126789</td>
+                            <td>CAK</td>
+                            <td>22 Mei 2026</td>
+                            <td>Selesai</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Anto</td>
+                            <td>241129876</td>
+                            <td>SKA</td>
+                            <td>22 Mei 2026</td>
+                            <td>Proses</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bentoo</td>
+                            <td>241121234</td>
+                            <td>PDA</td>
+                            <td>27 Mei 2026</td>
+                            <td>Selesai</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Rahmat</td>
+                            <td>241127654</td>
+                            <td>TNM</td>
+                            <td>23 Mei 2026</td>
+                            <td>Proses</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Adi</td>
+                            <td>241128701</td>
+                            <td>CAK</td>
+                            <td>21 Mei 2026</td>
+                            <td>Selesai</td>
+                        </tr>
+                    </tbody>
+                 </table>
+            </div>
+        </section>
 
 
       </main>
       <!-- akhir Main -->
 
       <!-- awal footer -->
-      <footer>
-        <p><b>SILA</b> - Sistem Informasi Layanan Akademik</p>
-        <p><b>Platform Digital untuk pengajuan layanan akademik mahasiswa</b></p>
-        <p>
-            <a href="index.html">Beranda</a>
-            <a href="layanan.html">Ajukan Layanan</a>
-            <a href="riwayat.html">Riwayat</a>
-        </p>
-        <p>&copy; 2026 SILA - Dibuat untuk tugas pemrograman web</em></p>
-      </footer>
+      <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>🎓 SILA</strong>
+                <p>Platform digital untuk pengajuan layanan akademik mahasiswa.</p>
+            </div>
+            <div>
+                <h4>Navigasi</h4>
+                <a href="index.html">Beranda</a>
+                <a href="layanan.html">Ajukan Layanan</a>
+                <a href="riwayat.html">Riwayat</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 SILA — Dibuat untuk tugas Pemrograman Web</p>
+            </div>
+        </div>
+    </footer>
+ 
+
       <!--akhir footer -->
       
     
 
 
-    
+<script src="js/script.js"></script>    
 </body>
 </html>
